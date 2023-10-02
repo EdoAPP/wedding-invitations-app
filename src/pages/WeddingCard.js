@@ -107,7 +107,7 @@ const onSiteGuests = {
     pass: 2,
   },
   "57e58217-3194-4b93-80c8-a3430a2540e7": {
-    name: "Jose Luis Urdaneta",
+    name: "Jose Luis Contreras",
     pass: 1,
   },
   "be14afa5-f5e8-4a1e-a461-e37172459d7c": {
