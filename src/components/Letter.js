@@ -47,6 +47,7 @@ const Letter = ({ guest, letterType }) => {
       >
         <div className="letter__invitation-second"></div>
         <div className="letter__invitation-first">
+          <div className="pass">Pase válido para {guest.pass} personas</div>
           <div className="letter__tapme pulse">
             <svg
               focusable="false"
