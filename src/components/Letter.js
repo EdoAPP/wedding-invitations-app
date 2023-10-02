@@ -13,7 +13,7 @@ const Letter = ({ guest, letterType }) => {
     setOpenLetter(true);
   };
 
-  return (
+  let cardEl = (
     <div className="letter">
       <div
         className={
@@ -61,6 +61,44 @@ const Letter = ({ guest, letterType }) => {
       </div>
     </div>
   );
+
+  if (letterType === "online") {
+    cardEl = (
+      <div className="letter">
+        <div
+          className={
+            openLetter
+              ? "letter__background background__animation"
+              : "letter__background"
+          }
+          onClick={letterHandler}
+        ></div>
+        <div
+          className={
+            openLetter
+              ? "letter__container foreground__animation"
+              : "letter__container"
+          }
+          onClick={letterHandler}
+        >
+          <div className="front__face"></div>
+          <div className="sealing">
+            <div className="name__tag">
+              <p className="name__tag-font">{guest.name}</p>
+            </div>
+          </div>
+          <div className="sealed">
+            <div className="sealed__stamp"></div>
+          </div>
+        </div>
+        <div className="flipper">
+          <div className="letter__invitation-first-online"></div>
+        </div>
+      </div>
+    );
+  }
+
+  return cardEl;
 };
 
 export default Letter;

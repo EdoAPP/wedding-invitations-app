@@ -2,7 +2,48 @@ import Letter from "../components/Letter";
 
 import "./WeddingCard.css";
 
-const onlineGuests = {};
+const onlineGuests = {
+  "2cf10234-d14f-4207-8681-8d5167fac52e": {
+    name: "Marielvys Carrizo y Familia",
+  },
+  "e7ac8b12-5e71-406c-abc1-fbd49293c95c": {
+    name: "Mariennis y Novio de Mariennis",
+  },
+  "be91b89a-6388-429e-aa2e-896ed1f2dccd": {
+    name: "Marielis Rubio",
+  },
+  "0d654a3b-2d11-473e-816d-78aede99d271": {
+    name: "Mariana Zambrano",
+  },
+  "7ee14f7a-0a81-4f8c-bca6-0406f008c111": {
+    name: "Tiffany Jaouhari",
+  },
+  "588da1ac-2670-45e7-83c5-d64c69728970": {
+    name: "Daniel Cubillán",
+  },
+  "e3988f2a-ba1f-4508-8633-c0edf1a3a615": {
+    name: "Valeria Morales y Abraham Lozano",
+  },
+  "e43a4de3-8565-45c4-bcaa-1c22a8a440ba": {
+    name: "Lorenys Prieto y Familia",
+  },
+  "dc33e427-ee11-4cd4-a01b-4928f63ce071": {
+    name: "Nataly Ramirez",
+  },
+  "fd5c808f-f915-47f9-bca9-1154f5c3abc8": {
+    name: "Juan Diego Molina",
+  },
+  "f94cf39e-74c9-4fba-83f6-e0e3c5b5df34": {
+    name: "Yulitza Morales y Carlos",
+  },
+  "3bedc027-89e5-45ed-8144-cbda075ba51a": {
+    name: "Jose Daniel Rubio",
+  },
+  "b2007523-7450-473b-af46-2d266370e283": {
+    name: "Abuela Betty",
+  },
+};
+
 const onSiteGuests = {
   "7c3c2ed5-a036-4792-ad35-dc6ebcc68e1f": {
     name: "Nilibeth Sánchez & Jose Huerta",
@@ -58,7 +99,7 @@ const onSiteGuests = {
     pass: 2,
   },
   "37a5258b-cfd0-4466-8646-6dba6e08f0f9": {
-    name: "Adriana Prieto & Eduardo",
+    name: "Adriana Prieto & Eduardo Saman",
     pass: 2,
   },
   "4528e507-f8ad-4f65-8ad4-bd18c0f9ac80": {
@@ -112,7 +153,10 @@ const WeddingCard = () => {
 
   return (
     <div className="container">
-      <Letter guest={onSiteGuest} letterType={letterType} />
+      <Letter
+        guest={onSiteGuest ? onSiteGuest : onlineGuest}
+        letterType={letterType}
+      />
     </div>
   );
 };

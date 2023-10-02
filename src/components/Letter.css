@@ -151,6 +151,17 @@
     transform: rotateY(0deg);
 }
 
+.letter__invitation-first-online {
+    background-image: url("../images/first-online.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    background-size: auto 100%;
+    background-position: center center;
+    box-shadow: rgba(0, 0, 0, 0.388) 0px 4px 6px -1px, rgba(0, 0, 0, 0.229) 0px 2px 4px -1px;
+    transform: rotateY(0deg);
+}
+
 .letter__invitation-second {
     background-image: url("../images/second.png");
     background-repeat: no-repeat;
