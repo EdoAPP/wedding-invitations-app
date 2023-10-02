@@ -7,7 +7,7 @@ const onlineGuests = {
     name: "Marielvys Carrizo y Familia",
   },
   "e7ac8b12-5e71-406c-abc1-fbd49293c95c": {
-    name: "Mariennis y Novio de Mariennis",
+    name: "Mariennis y Andrés Martinez",
   },
   "be91b89a-6388-429e-aa2e-896ed1f2dccd": {
     name: "Marielis Rubio",
