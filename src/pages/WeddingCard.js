@@ -123,8 +123,8 @@ const onSiteGuests = {
     pass: 2,
   },
   "be70e743-091d-43ee-bd11-63dc38e795bc": {
-    name: "Francisco Barrios",
-    pass: 1,
+    name: "Francisco Barrios & Wendy Flores",
+    pass: 2,
   },
   "34647ae2-13f5-4be2-982f-5b4f63a23469": {
     name: "Georgina Deftereos",
