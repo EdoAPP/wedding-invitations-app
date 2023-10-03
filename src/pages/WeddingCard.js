@@ -119,7 +119,7 @@ const onSiteGuests = {
     pass: 2,
   },
   "94737863-157a-4bd5-a0f5-08cff4cede71": {
-    name: "Wilfredo Parra & Novia",
+    name: "Wilfredo Parra & Anyelyn Garcia",
     pass: 2,
   },
   "be70e743-091d-43ee-bd11-63dc38e795bc": {
