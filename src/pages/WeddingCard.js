@@ -76,11 +76,7 @@ const onSiteGuests = {
   },
   "436b4d9a-cd74-4537-b5fc-8e3d66796066": {
     name: "Jhon Sánchez",
-    pass: 1,
-  },
-  "cd88c36d-485d-4b43-ae59-c300ee7f030b": {
-    name: "Jhon Sánchez",
-    pass: 1,
+    pass: 2,
   },
   "fdccf981-69e4-4aa5-b8c8-a721a1e76d19": {
     name: "Yanely Prieto",
