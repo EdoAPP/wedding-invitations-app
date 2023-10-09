@@ -128,7 +128,7 @@ const onSiteGuests = {
   },
   "34647ae2-13f5-4be2-982f-5b4f63a23469": {
     name: "Georgina Deftereos",
-    pass: 1,
+    pass: 2,
   },
 };
 
