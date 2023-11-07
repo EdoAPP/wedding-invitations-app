@@ -130,6 +130,10 @@ const onSiteGuests = {
     name: "Georgina Deftereos",
     pass: 2,
   },
+  "6f09e112-af37-44d0-b39e-4dc9108f1379": {
+    name: "Tarjeta de muestra",
+    pass: 1,
+  },
 };
 
 const WeddingCard = () => {
