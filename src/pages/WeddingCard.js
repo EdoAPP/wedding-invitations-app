@@ -82,6 +82,14 @@ const onSiteGuests = {
     name: "Yanely Prieto",
     pass: 1,
   },
+  "fdccf981-69e4-4aa5-b8c8-a721a1e76er9": {
+    name: "Fernando Urrutia",
+    pass: 1,
+  },
+  "fdccf981-69e4-4aa5-b8c8-a721a17re6er9": {
+    name: "Alberto Gonzalez",
+    pass: 2,
+  },
   "a84c520b-4948-4f08-871a-a103621c45ac": {
     name: "Edgar Pacheco & Familia",
     pass: 4,
