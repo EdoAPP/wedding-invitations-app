@@ -42,6 +42,18 @@ const onlineGuests = {
   "b2007523-7450-473b-af46-2d266370e283": {
     name: "Abuela Betty",
   },
+  "b2007523-7450-473b-af46-2d266370e284": {
+    name: "Ha-Doan Le-Nguyen",
+  },
+  "b2007523-7450-473b-af46-2d266370e285": {
+    name: "Hanif Tiznobake",
+  },
+  "b2007523-7450-473b-af46-2d266370e286": {
+    name: "Ashwin Ramesh",
+  },
+  "c2007523-7450-473b-af46-2d266370e286": {
+    name: "Maitrayee Sohni",
+  },
 };
 
 const onSiteGuests = {
