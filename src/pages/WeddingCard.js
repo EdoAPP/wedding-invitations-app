@@ -27,9 +27,6 @@ const onlineGuests = {
   "e43a4de3-8565-45c4-bcaa-1c22a8a440ba": {
     name: "Lorenys Prieto y Familia",
   },
-  "dc33e427-ee11-4cd4-a01b-4928f63ce071": {
-    name: "Nataly Ramirez",
-  },
   "fd5c808f-f915-47f9-bca9-1154f5c3abc8": {
     name: "Juan Diego Molina",
   },
@@ -53,6 +50,24 @@ const onlineGuests = {
   },
   "c2007523-7450-473b-af46-2d266370e286": {
     name: "Maitrayee Sohni",
+  },
+  "dc33e427-ee11-4cd4-a01b-4928f63ce071": {
+    name: "Nathaly Ramirez",
+  },
+  "d2007523-7450-473b-af46-2d266370e286": {
+    name: "Jose Estevez & Ariana Casarin",
+  },
+  "r2007523-7450-473b-af46-2d266370e286": {
+    name: "Daniel Reinoso",
+  },
+  "r2007523-7450-473c-af46-2d266370e286": {
+    name: "Oscar Colmenares & Monica Quiroz",
+  },
+  "b2007523-7450-473c-af46-2d266370e286": {
+    name: "Lucas Galletti",
+  },
+  "j2007523-7450-473c-af46-2d266370e286": {
+    name: "Diego Brosolo",
   },
 };
 
