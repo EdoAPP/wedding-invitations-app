@@ -69,6 +69,15 @@ const onlineGuests = {
   "j2007523-7450-473c-af46-2d266370e286": {
     name: "Diego Brosolo",
   },
+  "h2007523-7450-473c-af46-2d266370e286": {
+    name: "Luis Pirela & Andrea Pirela",
+  },
+  "h2007523-7450-473c-bf46-2d266370e286": {
+    name: "Ninoska Belen",
+  },
+  "h2007523-7450-h73c-bf46-2d266370e286": {
+    name: "Neyda Pirela & Ninon Pirela",
+  },
 };
 
 const onSiteGuests = {
